@@ -343,6 +343,56 @@ export const mockAccordionData = [
     details:
       "To enable two-factor authentication, go to the 'Security Settings' in your account. You can choose methods like SMS verification, email codes, or authentication apps to add an extra layer of protection.",
   },
+  {
+    question: "How can I track revenue trends?",
+    details:
+      "To monitor revenue trends, go to the Reports section in the admin dashboard. You can generate reports that display sales performance by day, month, or year and identify fluctuations in income.",
+  },
+  {
+    question: "What payment methods are supported?",
+    details:
+      "Our system supports various payment methods including credit/debit cards, PayPal, and direct bank transfers. You can manage payment options in the Settings section of the dashboard.",
+  },
+  {
+    question: "How do I issue refunds to customers?",
+    details:
+      "To issue a refund, navigate to the Orders section in the admin dashboard. Select the order that requires a refund and use the 'Refund' option to process the transaction according to company policies.",
+  },
+  {
+    question: "Can I set up recurring payments?",
+    details:
+      "Yes! You can enable recurring payments for subscriptions or installment-based purchases. Go to the Billing Settings in the admin dashboard to configure payment frequencies and options.",
+  },
+  {
+    question: "Where can I view my profit margins?",
+    details:
+      "You can analyze profit margins in the financial reports section. It calculates earnings by subtracting total expenses from revenue over a specific period.",
+  },
+  {
+    question: "How do I adjust product pricing?",
+    details:
+      "To change product pricing, visit the Products section in the admin dashboard. Select the product you want to update, modify the price field, and click 'Save' to apply the new pricing.",
+  },
+  {
+    question: "What is the process for handling late payments?",
+    details:
+      "If a customer has overdue payments, you can send automated payment reminders from the Billing section. Additional late fees may be applied depending on company policies.",
+  },
+  {
+    question: "Can I generate financial statements?",
+    details:
+      "Yes, you can generate comprehensive financial reports including balance sheets, income statements, and cash flow analysis. These can be found in the Reports section.",
+  },
+  {
+    question: "What are the available tax settings?",
+    details:
+      "Tax settings allow you to configure regional sales tax rates and apply them automatically at checkout. Adjustments can be made in the Tax Settings section of the dashboard.",
+  },
+  {
+    question: "How do I integrate payment gateways?",
+    details:
+      "To integrate a payment gateway like Stripe or PayPal, go to the Integrations section in the dashboard. Follow the setup instructions to enable secure transactions.",
+  }
 ];
 
 export const mockTransactions = [
