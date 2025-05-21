@@ -6,7 +6,9 @@ Along with the main dashboard page, it displays the teams page with default emai
 
 This is a repo that I took and followed along watching a video, making subtle changes to it and deploying it to Vercel with the framework being Vite.
 
-The calendar on this is fully interactive. I am able to write down a reminder to myself on it via the localhost.
+The calendar on this is fully interactive. I am able to write down a reminder to myself on it via the localhost:
+<img width="1091" alt="Calendar" src="https://github.com/user-attachments/assets/6321e49c-2313-4b49-a86a-a09cef3a4876" />
+
 
 On my end there were alignment issues but I’m sure that it would show up as it’s supposed to when running on server.
 
