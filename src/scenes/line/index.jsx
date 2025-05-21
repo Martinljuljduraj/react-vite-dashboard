@@ -4,7 +4,7 @@ import { Header, LineChart } from "../../components";
 const Line = () => {
   return (
     <Box m="20px">
-      <Header title="Line Chart" subtitle="Simple Line Chart" />
+      <Header title="Line Chart" subtitle="Methods of tansportation from people around the world" />
       <Box height="75vh">
         <LineChart />
       </Box>

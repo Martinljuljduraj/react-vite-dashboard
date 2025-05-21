@@ -7,10 +7,10 @@ const Geography = () => {
   const colors = tokens(theme.palette.mode);
   return (
     <Box m="20px">
-      <Header title="Geography" subtitle="Simple Geography Chart" />
+      <Header title="Geography" subtitle="Where all the data is coming from" />
 
       <Box
-        height="75vh"
+        height="120vh"
         border={`1px solid ${colors.gray[100]}`}
         borderRadius="4px"
       >
