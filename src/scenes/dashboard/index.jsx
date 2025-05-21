@@ -33,7 +33,7 @@ function Dashboard() {
   return (
     <Box m="20px">
       <Box display="flex" justifyContent="space-between">
-        <Header title="DASHBOARD" subtitle="Welcome to your dashboard" />
+        <Header title="DASHBOARD" subtitle="Welcome to the dashboard you were waiting for" />
         {!isXsDevices && (
           <Box>
             <Button
@@ -86,7 +86,7 @@ function Dashboard() {
             increase="+14%"
             icon={
               <Email
-                sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
+                sx={{ color: colors.redAccent[600], fontSize: "26px" }}
               />
             }
           />
@@ -105,7 +105,7 @@ function Dashboard() {
             increase="+21%"
             icon={
               <PointOfSale
-                sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
+                sx={{ color: colors.redAccent[600], fontSize: "26px" }}
               />
             }
           />
@@ -124,7 +124,7 @@ function Dashboard() {
             increase="+5%"
             icon={
               <PersonAdd
-                sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
+                sx={{ color: colors.redAccent[600], fontSize: "26px" }}
               />
             }
           />
@@ -143,7 +143,7 @@ function Dashboard() {
             increase="+43%"
             icon={
               <Traffic
-                sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
+                sx={{ color: colors.redAccent[600], fontSize: "26px" }}
               />
             }
           />
