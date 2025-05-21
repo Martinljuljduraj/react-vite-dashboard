@@ -298,7 +298,7 @@ function Dashboard() {
 
         {/* Geography Chart */}
         <Box
-          gridColumn={isXlDevices ? "span 4" : "span 3"}
+          gridColumn="span 3"
           gridRow="span 2"
           backgroundColor={colors.primary[400]}
           padding="30px"
@@ -311,6 +311,7 @@ function Dashboard() {
             alignItems="center"
             justifyContent="center"
             height="200px"
+            width="100%" /* Ensures consistent sizing */
           >
             <GeographyChart isDashboard={true} />
           </Box>
