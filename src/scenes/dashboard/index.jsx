@@ -289,6 +289,7 @@ function Dashboard() {
             alignItems="center"
             justifyContent="center"
             height="250px"
+            width="100%" // Add this line to constraint for alignment
             mt="-20px"
           >
             <BarChart isDashboard={true} />
