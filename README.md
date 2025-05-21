@@ -12,6 +12,10 @@ On my end there were alignment issues but I’m sure that it would show up as it
 
 Changed up the mock data it was giving me among the various charts. Changed the names in the contact information and names of the Team members were changed along with invoice info.
 
+If you go to the Contact Information tab, you can download a csv file with all the new mock names I've given it:
+<img width="1253" alt="Screenshot 2025-05-21 at 9 26 07 AM" src="https://github.com/user-attachments/assets/ba3084bf-4a34-403d-bd6f-c7f4679f1028" />
+
+
 You can run this on localhost:5173
 
 Proof of successful deployment:
